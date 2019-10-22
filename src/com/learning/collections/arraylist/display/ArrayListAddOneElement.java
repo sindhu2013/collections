@@ -6,6 +6,7 @@ public class ArrayListAddOneElement {
 		
 		ArrayList<String> alist=new ArrayList<String>();
 		alist.add("sindhu");
+		alist.add(null);
 		alist.add("siddarh");
 		alist.add("siu");
 		alist.add("vikyathnu");
