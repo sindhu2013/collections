@@ -13,6 +13,7 @@ public class ArrayListAddDisplay {
 		alist.add("third element");
 		alist.add("fourth element");
 		alist.add("fifth element");
+		alist.add(null);
 		
 		for (String element : alist) {
 			System.out.println(element);
