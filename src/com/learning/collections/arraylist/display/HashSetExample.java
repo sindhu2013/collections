@@ -1,6 +1,6 @@
 package com.learning.collections.arraylist.display;
-
-
+import java.util.Set;
+import java.util.TreeSet;
 	import java.util.HashSet;
 	public class HashSetExample {
 	   public static void main(String args[]) {
@@ -36,6 +36,14 @@ package com.learning.collections.arraylist.display;
 	      for (String temp : hset) {
 	          System.out.println(temp);
 	       }
+	   // Creating a TreeSet of HashSet elements
+	      Set<String> tset = new TreeSet<String>(hset);
+	  
+	      // Displaying TreeSet elements
+	      System.out.println("TreeSet contains: ");
+	      for(String temp : tset){
+	         System.out.println(temp);
+	      }
 	      
 	    }
 	
