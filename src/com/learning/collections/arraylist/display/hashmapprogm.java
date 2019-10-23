@@ -21,6 +21,14 @@ package com.learning.collections.arraylist.display;
 	      hmap.put(3, "Anuj");
 	      hmap.put(49, "sindhu");
 	      hmap.put(5, "Anuj");
+	      hmap.put(null, "Anuj");
+	      hmap.put(1, null);
+	      hmap.put(1, null);
+	      
+	      
+	      
+	      
+	      
 	      /* Display content using Iterator*/
 	      Set set = hmap.entrySet();
 	      Iterator iterator = set.iterator();
