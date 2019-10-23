@@ -12,7 +12,11 @@ package com.learning.collections.arraylist.display;
 	     hmap.put(2, "BB");
 	     hmap.put(3, "CC");
 	     hmap.put(4, "DD");
-	 
+	     boolean flag = hmap.containsKey(2);
+	     System.out.println("Key 2 exists in HashMap? : " + flag);
+	     boolean flag1= hmap.containsKey(5);
+	     System.out.println("Key 5 exists in HashMap? : " + flag1);
+	  
 	     // Create another HashMap
 	     HashMap<Integer, String> hmap2 = new HashMap<Integer, String>();
 	 
