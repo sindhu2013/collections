@@ -24,7 +24,7 @@ package com.learning.collections.arraylist.display;
 	     hmap2.putAll(hmap);
 	     HashMap<Integer, String> hmap3 = new HashMap<Integer, String>();
 		 hmap3.put(null, null);
-		 
+		 hmap3.compute(2, null);
 	     hmap3.putAll(hmap2);
 	 
 	     // Displaying HashMap "hmap2" content
